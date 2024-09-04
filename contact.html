@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+  <div id="loader">
+    <img src="./assets/—Pngtree—image icon - vector loading_4985566.png" alt="Loading..." />
+  </div>
+  
+  <nav>
+    <div class="nav__bar">
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="trainer.html">TRAINER</a></li>
+        <li><a href="contact.html" class="active">CONTACT US</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact section__container">
+    <div class="contact__header about__header">
+      <h2 class="section__header">Contact Us</h2>
+      <p class="section__description">We'd love to hear from you! Reach out to us using the form below or through our contact information.</p>
+    </div>
+
+    <div class="contact__grid">
+      <!-- Contact Form -->
+      <div class="contact__form">
+        <form id="contactForm">
+          <div class="form__group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <small id="nameError"></small>
+          </div>
+          <div class="form__group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <small id="nameError"></small>
+          </div>
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <small id="nameError"></small>
+          </div>
+          <button type="button" id="sendWhatsApp" class="btn btn__primary">Send Message</button>
+        </form>
+      </div>
+      
+
+      <!-- Contact Information -->
+      <div class="contact__info">
+        <h3>Contact Information</h3>
+        <p>You can also reach us directly through the following channels:</p>
+        <ul>
+          <li><strong>Phone:</strong> +91 6382184993</li>
+          <li><strong>Email:</strong> arunnkumarak383.com</li>
+          <li><strong>Address:</strong> Maduvankarai,Guindy,Chennai</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+        </div>
+        <p>
+          Welcome to FitPhysique, where we believe that every journey to
+          fitness is unique and empowering.
+        </p>
+        <ul class="footer__links">
+          <li>
+            <a href="#">
+              <span><i class="ri-map-pin-2-fill"></i></span>
+              Narasingapuram,<br />Guindy, Chennai
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-phone-fill"></i></span>
+              +91 6382184993
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span><i class="ri-mail-fill"></i></span>
+              arunnkumarak383@gmail.com
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>GALLERY</h4>
+        <div class="gallery__grid">
+          <img src="assets/gallery-1.jpg" alt="gallery" />
+          <img src="assets/gallery-2.jpg" alt="gallery" />
+          <img src="assets/gallery-3.jpg" alt="gallery" />
+          <img src="assets/gallery-4.jpg" alt="gallery" />
+          <img src="assets/gallery-5.jpg" alt="gallery" />
+          <img src="assets/gallery-6.jpg" alt="gallery" />
+          <img src="assets/gallery-7.jpg" alt="gallery" />
+          <img src="assets/gallery-8.jpg" alt="gallery" />
+          <img src="assets/gallery-9.jpg" alt="gallery" />
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Upcoming Events</h4>
+        <ul class="events">
+          <li>Fitness Workshop - October 15, 2024</li>
+          <li>Yoga Class - November 5, 2024</li>
+          <li>Nutrition Seminar - December 10, 2024</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright © 2024 ArunKumar. All rights reserved.
+    </div>
+  </footer>
+  
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="main.js"></script>
+
+</body>
+</html>
